@@ -109,28 +109,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Maven.DevOps_Project [clean].executor": "Run",
-    "Maven.DevOps_Project [compile].executor": "Run",
-    "Maven.DevOps_Project [install].executor": "Run",
-    "Maven.DevOps_Project [package].executor": "Run",
-    "Maven.DevOps_Project [test].executor": "Run",
-    "Maven.DevOps_Project [validate].executor": "Run",
-    "Maven.DevOps_Project [verify].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "rim4",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/PCS/Downloads/DevOps_Project/DevOps_Project",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Maven.DevOps_Project [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.DevOps_Project [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.DevOps_Project [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.DevOps_Project [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.DevOps_Project [test].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.DevOps_Project [validate].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.DevOps_Project [verify].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;rim4&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/PCS/Downloads/DevOps_Project/DevOps_Project&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="DevOps_Project" />
@@ -145,6 +145,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DevOps_ProjectSpringBootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="DevOps_Project" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="tn.esprit.devops_project.DevOps_ProjectSpringBootApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -155,7 +162,7 @@
       <option name="presentableId" value="Default" />
       <updated>1730728556336</updated>
       <workItem from="1730728557362" duration="5259000" />
-      <workItem from="1730805751226" duration="8295000" />
+      <workItem from="1730805751226" duration="8925000" />
     </task>
     <servers />
   </component>

@@ -152,7 +152,6 @@ public class InvoiceDetailServiceImplTest {
 
 
     //Tester le calcul du montant total d'une facture détaillée (InvoiceDetail)
-
     @Test
     public void testCalculateTotalAmount() {
         // Given
@@ -164,6 +163,7 @@ public class InvoiceDetailServiceImplTest {
         // Then
         assertEquals(250.0f, totalAmount);
     }
+
 
 
 
