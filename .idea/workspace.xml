@@ -7,7 +7,6 @@
     <list default="true" id="7601e990-a338-4cac-b86f-68372bf6f4d4" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/devops_project/DevOps_ProjectSpringBootApplication.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/devops_project/controllers/InvoiceController.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/devops_project/controllers/OperatorController.java" afterDir="false" />
@@ -87,6 +86,7 @@
       <change afterPath="$PROJECT_DIR$/target/test-classes/application-test.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/test-classes/tn/esprit/devops_project/services/InvoiceDetailServiceImplTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tn/esprit/devops_project/services/InvoiceDetailServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tn/esprit/devops_project/services/InvoiceDetailServiceImplTest.java" afterDir="false" />
     </list>
@@ -155,7 +155,7 @@
       <option name="presentableId" value="Default" />
       <updated>1730728556336</updated>
       <workItem from="1730728557362" duration="5259000" />
-      <workItem from="1730805751226" duration="6726000" />
+      <workItem from="1730805751226" duration="7727000" />
     </task>
     <servers />
   </component>
