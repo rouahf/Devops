@@ -14,7 +14,7 @@ services:
       - db:/var/lib/mysql
 
     # backend application service
-  devops-backend:
+  foyer-backend:
     depends_on:
       - mysqldb
     build: ./
