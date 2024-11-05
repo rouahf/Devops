@@ -152,7 +152,18 @@ public class InvoiceDetailServiceImplTest {
 
 
     //Tester le calcul du montant total d'une facture détaillée (InvoiceDetail)
-    
+
+    @Test
+    public void testCalculateTotalAmount() {
+        // Given
+        InvoiceDetail invoiceDetail = new InvoiceDetail(1L, 5, 50.0f, product, invoice); // 5 * 50 = 250
+
+        // When
+        float totalAmount = invoiceDetailService.calculateTotalAmount(invoiceDetail);
+
+        // Then
+        assertEquals(250.0f, totalAmount);
+    }
 
 
 
