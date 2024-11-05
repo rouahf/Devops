@@ -13,7 +13,7 @@ services:
       - db:/var/lib/mysql
 
     # backend application service
-  achat-backend:
+  foyer-backend:
     depends_on:
       - mysqldb
     build: ./
@@ -37,11 +37,7 @@ services:
         "spring.jpa.properties.hibernate.dialect":"org.hibernate.dialect.MySQL8Dialect",
         "spring.jpa.hibernate.ddl-auto": "update"
       }'
-  # Frontend application service
-  front:
-    image: dhiatrabelsi/front:15
-    ports:
-      - "86:86"
+
 
 volumes:
   db :
