@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7601e990-a338-4cac-b86f-68372bf6f4d4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/devops_project/DevOps_ProjectSpringBootApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/devops_project/controllers/InvoiceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/devops_project/controllers/OperatorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/devops_project/controllers/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/devops_project/controllers/StockController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/devops_project/controllers/SupplierController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/devops_project/entities/Invoice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/devops_project/entities/InvoiceDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/devops_project/entities/Operator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/devops_project/entities/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/devops_project/entities/ProductCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/devops_project/entities/Stock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/devops_project/entities/Supplier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/devops_project/entities/SupplierCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/devops_project/openapi.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/devops_project/repositories/InvoiceDetailRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/devops_project/repositories/InvoiceRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/devops_project/repositories/OperatorRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/devops_project/repositories/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/devops_project/repositories/StockRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/devops_project/repositories/SupplierRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/devops_project/services/InvoiceDetailServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/devops_project/services/InvoiceServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/devops_project/services/Iservices/IInvoiceDetailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/devops_project/services/Iservices/IInvoiceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/devops_project/services/Iservices/IOperatorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/devops_project/services/Iservices/IProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/devops_project/services/Iservices/IStockService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/devops_project/services/Iservices/ISupplierService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/devops_project/services/OperatorServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/devops_project/services/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/devops_project/services/StockServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/devops_project/services/SupplierServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tn/esprit/devops_project/services/InvoiceDetailServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/application-test.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DevOps_Project-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DevOps_Project-1.0.jar.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/tn/esprit/devops_project/DevOps_ProjectSpringBootApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/tn/esprit/devops_project/controllers/InvoiceController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/tn/esprit/devops_project/controllers/OperatorController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/tn/esprit/devops_project/controllers/ProductController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/tn/esprit/devops_project/controllers/StockController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/tn/esprit/devops_project/controllers/SupplierController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/tn/esprit/devops_project/entities/Invoice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/tn/esprit/devops_project/entities/InvoiceDetail.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/tn/esprit/devops_project/entities/Operator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/tn/esprit/devops_project/entities/Product.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/tn/esprit/devops_project/entities/ProductCategory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/tn/esprit/devops_project/entities/Stock.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/tn/esprit/devops_project/entities/Supplier.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/tn/esprit/devops_project/entities/SupplierCategory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/tn/esprit/devops_project/repositories/InvoiceDetailRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/tn/esprit/devops_project/repositories/InvoiceRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/tn/esprit/devops_project/repositories/OperatorRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/tn/esprit/devops_project/repositories/ProductRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/tn/esprit/devops_project/repositories/StockRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/tn/esprit/devops_project/repositories/SupplierRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/tn/esprit/devops_project/services/InvoiceDetailServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/tn/esprit/devops_project/services/InvoiceServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/tn/esprit/devops_project/services/Iservices/IInvoiceDetailService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/tn/esprit/devops_project/services/Iservices/IInvoiceService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/tn/esprit/devops_project/services/Iservices/IOperatorService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/tn/esprit/devops_project/services/Iservices/IProductService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/tn/esprit/devops_project/services/Iservices/IStockService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/tn/esprit/devops_project/services/Iservices/ISupplierService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/tn/esprit/devops_project/services/OperatorServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/tn/esprit/devops_project/services/ProductServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/tn/esprit/devops_project/services/StockServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/tn/esprit/devops_project/services/SupplierServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-tn.esprit.devops_project.services.InvoiceDetailServiceImplTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/tn.esprit.devops_project.services.InvoiceDetailServiceImplTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/application-test.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/tn/esprit/devops_project/services/InvoiceDetailServiceImplTest.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2oO71xmVhh2AuTaDu1Dmvdh1Y5W" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven.DevOps_Project [clean].executor": "Run",
+    "Maven.DevOps_Project [compile].executor": "Run",
+    "Maven.DevOps_Project [install].executor": "Run",
+    "Maven.DevOps_Project [package].executor": "Run",
+    "Maven.DevOps_Project [test].executor": "Run",
+    "Maven.DevOps_Project [validate].executor": "Run",
+    "Maven.DevOps_Project [verify].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/PCS/Downloads/DevOps_Project/DevOps_Project",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="DevOps_Project" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="DevOps_Project" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7601e990-a338-4cac-b86f-68372bf6f4d4" name="Changes" comment="" />
+      <created>1730728556336</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1730728556336</updated>
+      <workItem from="1730728557362" duration="5259000" />
+      <workItem from="1730805751226" duration="719000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
