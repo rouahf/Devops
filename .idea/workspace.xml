@@ -41,7 +41,6 @@
       <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/devops_project/services/ProductServiceImpl.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/devops_project/services/StockServiceImpl.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/devops_project/services/SupplierServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/tn/esprit/devops_project/services/InvoiceDetailServiceImplTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/resources/application-test.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/DevOps_Project-1.0.jar" afterDir="false" />
@@ -89,6 +88,7 @@
       <change afterPath="$PROJECT_DIR$/target/test-classes/application-test.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/test-classes/tn/esprit/devops_project/services/InvoiceDetailServiceImplTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,7 +155,7 @@
       <option name="presentableId" value="Default" />
       <updated>1730728556336</updated>
       <workItem from="1730728557362" duration="5259000" />
-      <workItem from="1730805751226" duration="2233000" />
+      <workItem from="1730805751226" duration="6670000" />
     </task>
     <servers />
   </component>
