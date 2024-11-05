@@ -1,7 +1,7 @@
 terraform {
   required_providers {
     docker = {
-      source  = "hashicorp/docker"
+      source  = "kreuzwerker/docker"
       version = "~> 2.0"
     }
   }
@@ -10,15 +10,13 @@ terraform {
 }
 
 provider "docker" {
-  host = "unix:///var/run/docker.sock"  # Utilisez le socket local si vous exécutez Docker localement
+  host = "unix:///var/run/docker.sock"
 }
 
-# Définir le volume MySQL
 resource "docker_volume" "mysql_volume" {
   name = "mysql1"
 }
 
-# Définir le conteneur MySQL
 resource "docker_container" "mysql_container" {
   name  = "mysql"
   image = "mysql"
@@ -36,15 +34,13 @@ resource "docker_container" "mysql_container" {
   }
 }
 
-# Définir l'image pour votre application Java
 resource "docker_image" "devops_image" {
-  name = "roua863/devops:latest"  # Assurez-vous que cette image est déjà disponible sur Docker Hub
+  name = "roua863/devops:latest"
 }
 
-# Définir le conteneur pour votre application Java
 resource "docker_container" "devops_container" {
   name  = "devops_container"
-  image = docker_image.devops_image.image_id  # Changer pour .image_id au lieu de .latest
+  image = docker_image.devops_image.image_id
   ports {
     internal = 8082
     external = 8082

@@ -1,5 +1,6 @@
 package tn.esprit.devops_project.services.Iservices;
 
+import tn.esprit.devops_project.entities.Stock;
 import tn.esprit.devops_project.entities.Supplier;
 
 import java.util.List;
@@ -15,5 +16,6 @@ public interface ISupplierService {
 	Supplier updateSupplier(Supplier supplier);
 
 	Supplier retrieveSupplier(Long id);
+
 
 }
