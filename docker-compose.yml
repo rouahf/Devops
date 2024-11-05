@@ -11,7 +11,7 @@ services:
       - "3306:3306"
 
   devops-app:
-    image: devopsproject
+    image: rayan1512/devopsproject
     depends_on:
       - mysql-db
     restart: on-failure
