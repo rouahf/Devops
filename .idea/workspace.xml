@@ -88,6 +88,7 @@
       <change afterPath="$PROJECT_DIR$/target/surefire-reports/tn.esprit.devops_project.services.InvoiceDetailServiceImplTest.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/test-classes/application-test.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/test-classes/tn/esprit/devops_project/services/InvoiceDetailServiceImplTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +120,7 @@
     "Maven.DevOps_Project [verify].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "rim4",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/PCS/Downloads/DevOps_Project/DevOps_Project",
     "node.js.detected.package.eslint": "true",
@@ -154,7 +155,7 @@
       <option name="presentableId" value="Default" />
       <updated>1730728556336</updated>
       <workItem from="1730728557362" duration="5259000" />
-      <workItem from="1730805751226" duration="719000" />
+      <workItem from="1730805751226" duration="2233000" />
     </task>
     <servers />
   </component>
