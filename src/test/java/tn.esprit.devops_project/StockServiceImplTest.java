@@ -2,13 +2,15 @@ package tn.esprit.devops_project;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
-import org.mockito.MockitoAnnotations;
+import org.mockito.junit.jupiter.MockitoExtension;
 import tn.esprit.devops_project.entities.Stock;
 import tn.esprit.devops_project.repositories.StockRepository;
 import tn.esprit.devops_project.services.StockServiceImpl;
 
+import javax.persistence.EntityNotFoundException;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
@@ -16,19 +18,19 @@ import java.util.Optional;
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.*;
 
+@ExtendWith(MockitoExtension.class)
 class StockServiceImplTest {
 
     @Mock
     private StockRepository stockRepository;
 
     @InjectMocks
-    private StockServiceImpl stockService; // Changer ici pour utiliser StockServiceImpl
+    private StockServiceImpl stockService;
 
     private Stock stock;
 
     @BeforeEach
     void setUp() {
-        MockitoAnnotations.openMocks(this);
         stock = new Stock();
         stock.setIdStock(1L);
         stock.setTitle("Stock Title");
@@ -78,7 +80,9 @@ class StockServiceImplTest {
     void testRetrieveStock_NotFound() {
         when(stockRepository.findById(1L)).thenReturn(Optional.empty());
 
-        Exception exception = assertThrows(NullPointerException.class, () -> stockService.retrieveStock(1L));
+
+        // Changez la gestion de l'exception en fonction de la méthode du service
+        Exception exception = assertThrows(EntityNotFoundException.class, () -> stockService.retrieveStock(1L));
         assertEquals("Stock not found", exception.getMessage());
 
         verify(stockRepository, times(1)).findById(1L);
