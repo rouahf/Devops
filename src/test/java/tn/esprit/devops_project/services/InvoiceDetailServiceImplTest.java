@@ -74,23 +74,7 @@ public class InvoiceDetailServiceImplTest {
         assertEquals(2, savedInvoiceDetail.getQuantity());
     }
 
-//    @Test
-//    public void testUpdateInvoiceDetail() {
-//        // Given
-//        InvoiceDetail existingInvoiceDetail = new InvoiceDetail(1L, 2, 100.0f, product, invoice);
-//        InvoiceDetail updatedInvoiceDetail = new InvoiceDetail(1L, 3, 150.0f, product, invoice);
-//
-//        when(invoiceDetailRepository.findById(1L)).thenReturn(Optional.of(existingInvoiceDetail));
-//        when(invoiceDetailRepository.save(updatedInvoiceDetail)).thenReturn(updatedInvoiceDetail);
-//
-//        // When
-//        InvoiceDetail result = invoiceDetailService.updateInvoiceDetail(1L, updatedInvoiceDetail);
-//
-//        // Then
-//        assertEquals(1L, result.getIdInvoiceDetail());
-//        assertEquals(3, result.getQuantity());
-//        assertEquals(150.0f, result.getPrice());
-//    }
+
 
     @Test
     public void testDeleteInvoiceDetail() {
