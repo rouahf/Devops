@@ -121,7 +121,7 @@
 
             </plugin>
 
-           <plugin>
+          <plugin>
     <groupId>org.jacoco</groupId>
     <artifactId>jacoco-maven-plugin</artifactId>
     <version>0.8.8</version>
@@ -133,16 +133,17 @@
         </execution>
         <execution>
             <id>report</id>
-            <phase>verify</phase>
+            <phase>test</phase>
             <goals>
                 <goal>report</goal>
             </goals>
             <configuration>
-                <outputDirectory>${project.build.directory}/jacoco-ut</outputDirectory>  <!-- Spécifie un répertoire pour le rapport -->
+                <outputDirectory>${project.build.directory}/jacoco-ut</outputDirectory>  <!-- Remplace le chemin par un répertoire valide -->
             </configuration>
         </execution>
     </executions>
 </plugin>
+
       </plugins>
     </build>
 
